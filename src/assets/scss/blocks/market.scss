@@ -1,0 +1,55 @@
+.market {
+    background: url(../images/bg-2.jpg);
+    background-repeat: no-repeat;
+    margin-top: -230px;
+    padding-top: 330px;
+    padding-bottom: 76px;
+    position: relative;
+    @include breakpoint($bp-1400) {
+        background-position: center bottom;
+    }
+    @include breakpoint($bp-800) {
+        margin-top: 0;
+        padding-top: 250px;
+        background-size: cover;
+    }
+    @include breakpoint($bp-500) {
+        margin-top: -200px;
+        padding-top: 330px;
+    }
+    &::before {
+        display: block;
+        content: '';
+        background: url(../images/market-bg.png);
+        width: 472px;
+        height: 447px;
+        position: absolute;
+        top: 600px;
+        right: 50px;
+        @include breakpoint($bp-1600) {
+            right: -50px;
+        }
+        @include breakpoint($bp-1300) {
+            display: none;
+        }
+    }
+    &__blocks {
+        max-width: 900px;
+        margin-bottom: 55px;
+    }
+    &__block {
+        display: flex;
+        align-items: center;
+        margin-bottom: 35px;
+        &-text {
+            margin-left: 23px;
+            font-size: 26px;
+            line-height: 34px;
+            color: #fff;
+            @include breakpoint($bp-800) {
+                font-size: 22px;
+                line-height: 30px;
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+.orange {
+    color: #F18507;
+    font-family: 'Fregat-Bold';
+}
+.orange-2 {
+    color: #F9AF05;
+    font-family: 'PotrachenoAlt';
+}
+.orange-3 {
+    color: #F9AF05;
+}
+.orange-4 {
+    color: #F18507;
+    font-family: 'PotrachenoAlt';
+}
+.phiol {
+    color: #6E5A96;
+}
+.title {
+    color: #fff;
+    max-width: 920px;
+    text-transform: uppercase;
+    font-size: 48px;
+    line-height: 72px;
+    font-family: 'PotrachenoAlt';
+    margin-bottom: 30px;
+    &--black {
+        color: #1D1D1B;
+    }
+    &--center {
+        max-width: 100%;
+        text-align: center;
+    }
+    @include breakpoint($bp-800) {
+        font-size: 38px;
+        line-height: 52px;
+    }
+}
+.p {
+    font-size: 36px;
+    line-height: 50px;
+    font-family: 'Fregat-Bold';
+    color: #fff;
+    max-width: 1300px;
+    margin-bottom: 60px;
+    @include breakpoint($bp-800) {
+        font-size: 30px;
+        line-height: 42px;
+    }
+    &--black {
+        color: #1D1D1B;
+    }
+    &--center {
+        text-align: center;
+        margin: 0 auto;
+    }
+}

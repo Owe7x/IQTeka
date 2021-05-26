@@ -1,0 +1,173 @@
+.stages {
+    background: url(../images/bg-6.jpg);
+    background-repeat: no-repeat;
+    padding-top: 104px;
+    padding-bottom: 35px;
+    background-position: center center;
+    @include breakpoint($bp-1400) {
+        padding-top: 50px;
+        padding-bottom: 0;
+        background-size: cover;
+    }
+    &-blocks {
+        margin-top: 138px;
+        margin-bottom: 200px;
+        @include breakpoint($bp-1100) {
+            margin-bottom: 100px;
+        }
+        @include breakpoint($bp-600) {
+            margin-top: 50px;
+        }
+    }
+    &-block {
+        display: flex;
+        padding: 30px 0;
+        @include breakpoint($bp-500) {
+            align-items: center;
+        }
+        &-number {
+            color: rgba(110, 90, 150, 0.7);
+            font-size: 288px;
+            line-height: 50px;
+            font-family: 'Fregat-Bold';
+            padding-top: 30px;
+            @include breakpoint($bp-800) {
+                font-size: 188px;
+                line-height: 50px;
+            }
+        }
+        &-info {
+            font-size: 26px;
+            line-height: 34px;
+            max-width: 470px;
+            padding-left: 20px;
+            .orange {
+                font-size: 36px;
+                line-height: 50px;
+                font-family: 'Fregat-Bold';
+                @include breakpoint($bp-500) {
+                    font-size: 26px;
+                    line-height: 30px;
+                }
+            }
+            @include breakpoint($bp-500) {
+                font-size: 20px;
+                line-height: 32px;
+            }
+        }
+    }
+}
+.st-b-1 {
+    @include breakpoint($bp-800) {
+       padding-left: 50px;
+    }
+    .stages-block-info {
+        @include breakpoint($bp-800) {
+            padding-left: 40px;
+         }
+    }
+}
+.st-b-2 {
+    padding-left: 140px;
+    .stages-block-info {
+        margin-top: -90px;
+        @include breakpoint($bp-800) {
+            margin-top: 0;
+        }
+    }
+    .stages-block-number {
+        @include breakpoint($bp-800) {
+            padding-top: 85px;
+        }
+        
+    }
+    @include breakpoint($bp-1100) {
+        padding-left: 40px;
+    }
+    @include breakpoint($bp-800) {
+        margin-top: 300px;
+    }
+    @include breakpoint($bp-500) {
+        margin-top: 450px;
+    }
+}
+.st-b-3 {
+    margin-top: 40px;
+    .stages-block-number {
+        padding-top: 85px;
+    }
+    @include breakpoint($bp-800) {
+        margin-top: -560px;
+        padding-left: 40px;
+    }
+    @include breakpoint($bp-600) {
+        margin-top: -660px;
+    }
+    @include breakpoint($bp-500) {
+        margin-top: -700px;
+    }
+}
+.st-b-4 {
+    margin-top: 95px;
+    .stages-block-info {
+        max-width: 500px;
+    }
+    @include breakpoint($bp-800) {
+        margin-top: 550px;
+    }
+    @include breakpoint($bp-500) {
+        margin-top: 750px;
+    }
+}
+.st-b-5 {
+    margin-top: 95px;
+    .stages-block-info {
+        max-width: 500px;
+    }
+    @include breakpoint($bp-800) {
+        margin-top: -750px;
+    }
+    @include breakpoint($bp-600) {
+        margin-top: -800px;
+    }
+    @include breakpoint($bp-500) {
+        margin-top: -1000px;
+    }
+}
+.st-b-6 {
+    margin-top: 115px;
+    .stages-block-info {
+        max-width: 525px;
+    }
+    .stages-block-number {
+        padding-top: 95px;
+    }
+    @include breakpoint($bp-800) {
+        margin-top: -530px;
+    }
+    @include breakpoint($bp-600) {
+        margin-top: -550px;
+    }
+    @include breakpoint($bp-500) {
+        margin-top: -650px;
+    }
+}
+.stages-finish {
+    width: 234px;
+    height: 234px;
+    background: #E76F00;
+    color: #fff;
+    font-size: 36px;
+    line-height: 50px;
+    font-family: 'Fregat-Bold';
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -80px;
+    margin-left: 30px;
+    @include breakpoint($bp-800) {
+        margin-top: 30px;
+    }
+}

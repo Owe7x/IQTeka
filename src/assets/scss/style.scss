@@ -1,0 +1,52 @@
+@import "vars";
+@import "mixins";
+@import "vendor/reset";
+@import 'bootstrap/scss/bootstrap';
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    background: #FFFDF9;
+    font-family: 'Fregat';
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #1D1D1B;
+    overflow-x: hidden;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+/* Blocks */
+@import "blocks/stylesheet.scss";
+@import "blocks/header.scss";
+@import "blocks/text.scss";
+@import "blocks/header-main.scss";
+@import "blocks/form.scss";
+@import "blocks/btn.scss";
+@import "blocks/market.scss";
+@import "blocks/iqteka.scss";
+@import "blocks/content.scss";
+@import "blocks/check.scss";
+@import "blocks/island.scss";
+@import "blocks/profit.scss";
+@import "blocks/calculator.scss";
+@import "blocks/ion.rangeSlider.scss";
+@import "blocks/stages.scss";
+@import "blocks/books.scss";
+@import "blocks/partner.scss";
+@import "blocks/opponent.scss";
+@import "blocks/action.scss";
+@import "blocks/slider.scss";
+@import "blocks/slick.scss";
+@import "blocks/slick-theme.scss";
+@import "blocks/footer-main.scss";
+@import "blocks/footer.scss";
+@import "blocks/modal.scss";

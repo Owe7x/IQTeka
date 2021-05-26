@@ -1,0 +1,39 @@
+.header {
+    background: #FFFDF9;
+    &__logo {
+        img {
+            @include breakpoint($bp-800) {
+                max-width: 115px;
+                height: auto;
+            }
+        }
+    }
+    &__main {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 25px;
+        padding-bottom: 95px;
+        @include breakpoint($bp-500) {
+            flex-direction: column;
+        }
+    }
+    &__text {
+        font-size: 20px;
+        line-height: 28px;
+        color: #4E4D4D;
+        @include breakpoint($bp-800) {
+            font-size: 16px;
+            line-height: 28px;
+        }
+    }
+    &__phone {
+        font-family: 'Fregat-Bold';
+        font-size: 26px;
+        position: relative;
+        z-index: 2;
+        @include breakpoint($bp-800) {
+            font-size: 20px;
+        }
+    }
+}

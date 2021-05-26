@@ -1,0 +1,17 @@
+.slider {
+    padding-top: 100px;
+    padding-bottom: 200px;
+    &-btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+    }
+}
+
+.variable-width-block {
+    height: 632px!important;
+    padding: 5px 10px;
+    img {
+        max-width: 100%;
+    }
+}

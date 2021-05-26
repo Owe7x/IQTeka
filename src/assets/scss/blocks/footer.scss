@@ -1,0 +1,29 @@
+.footer {
+    background: #554574;
+    padding: 20px 0;
+    &-block {
+        display: flex;
+        justify-content: space-between;
+        color: #fff;
+    }
+    &-b {
+        font-family: 'Fregat-Bold';
+        font-size: 26px;
+        line-height: 34px;
+    }
+    &-info {
+        a {
+            color: #fff;
+            font-size: 16px;
+            line-height: 34px;
+        }
+    }
+    &-phone {
+        a {
+            color: #fff;
+            font-family: 'Fregat-Bold';
+            font-size: 26px;
+            line-height: 34px;
+        }
+    }
+}

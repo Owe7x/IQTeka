@@ -1,0 +1,14 @@
+.content {
+    background: url(../images/bg-4.jpg);
+    background-repeat: no-repeat;
+    padding-top: 300px;
+    padding-bottom: 260px;
+    @include breakpoint($bp-1400) {
+
+        background-position: center top;
+    }
+    &-block {
+        max-width: 736px;
+        margin-left: auto;
+    }
+}

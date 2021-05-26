@@ -1,0 +1,46 @@
+.books {
+    background: #F18507;
+    padding-top: 154px;
+    padding-bottom: 50px;
+    .container {
+        position: relative;
+        &::after {
+            display: block;
+            content: '';
+            background: url(../images/books-bg.png);
+            width: 627px;
+            height: 627px;
+            position: absolute;
+            top: -60px;
+            right: -150px;
+            @include breakpoint($bp-1400) {
+                display: none;
+            }
+        }
+    }
+    .p {
+        max-width: 1200px;
+    }
+    &-nav {
+        max-width: 815px;
+        margin-bottom: 56px;
+    }
+    &-li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 27px;
+        img {
+            width: 24px;
+            height: 24px;
+        }
+        &-text {
+            padding-left: 23px;
+            font-size: 26px;
+            line-height: 34px;
+            color: #fff;
+        }
+        &:last-child {
+            margin-bottom: 0px;
+        }
+    }
+}

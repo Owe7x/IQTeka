@@ -1,0 +1,119 @@
+.island {
+    background: url(../images/bg-5.jpg);
+    padding-top: 340px;
+    padding-bottom: 230px;
+    background-repeat: no-repeat;
+    @include breakpoint($bp-1100) {
+        padding-top: 150px;
+    }
+    @include breakpoint($bp-1400) {
+        padding-bottom: 80px;
+    }
+    &-top {
+        max-width: 950px;
+        position: relative;
+        margin-bottom: 150px;
+        &::after {
+            display: block;
+            content: '';
+            background: url(../images/island-bg-1.png);
+            width: 627px;
+            height: 626px;
+            position: absolute;
+            top: -130px;
+            right: -650px;
+        }
+        @include breakpoint($bp-1400) {
+            margin-bottom: 50px;
+        }
+    }
+    &-center {
+        margin-bottom: 200px;
+        @include breakpoint($bp-1400) {
+            margin-bottom: 50px;
+        }
+    }
+    &-block {
+        width: 437px;
+        height: 437px;
+        background: #6E5A96;
+        border-radius: 50%;
+        font-family: 'Fregat-Bold';
+        text-align: center;
+        font-size: 26px;
+        line-height: 34px;
+        color: #fff;
+        padding: 50px 38px 0;
+        position: relative;
+        @include breakpoint($bp-1400) {
+            margin: 0 auto 30px;
+        }
+        @include breakpoint($bp-500) {
+            width: 300px;
+            height: 300px;
+            font-size: 19px;
+            line-height: 24px;
+        }
+        &::after {
+            display: block;
+            content: '';
+            width: 79px;
+            height: 79px;
+            background: #6E5A96;
+            border-radius: 50%;
+            position: absolute;
+            right: -50px;
+            bottom: 0;
+        }
+        &-text {
+            font-size: 288px;
+            line-height: 50px;
+            color: #fff;
+            display: flex;
+            margin-right: auto;
+            margin-bottom: 100px;
+            @include breakpoint($bp-500) {
+                font-size: 188px;
+                margin-bottom: 60px;
+                margin-top: -40px;
+            }
+        }
+    }
+    &-bottom {
+        border: 10px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 100px;
+        max-width: 768px;
+        padding: 80px 20px 30px 50px;
+        position: relative;
+        margin-bottom: 185px;
+        @include breakpoint($bp-500) {
+            padding: 30px 20px 30px;
+        }
+        &-text {
+            font-family: 'PotrachenoAlt';
+            font-size: 48px;
+            line-height: 72px;
+            color: #fff;
+            text-transform: uppercase;
+            @include breakpoint($bp-800) {
+                font-size: 40px;
+                line-height: 62px;
+            }
+            @include breakpoint($bp-500) {
+                font-size: 30px;
+                line-height: 42px;
+            }
+        }
+        &::after {
+            display: block;
+            content: '';
+            background: url(../images/island-bg-2.png);
+            width: 858px;
+            height: 906px;
+            position: absolute;
+            top: -100px;
+            right: -906px;
+        }
+    }
+}

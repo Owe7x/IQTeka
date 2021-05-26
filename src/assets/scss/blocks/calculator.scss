@@ -1,0 +1,52 @@
+.calculator {
+    padding-top: 350px;
+    background: url(../images/calculator-bg.jpg);
+    background-repeat: no-repeat;
+    padding-bottom: 205px;
+    @include breakpoint($bp-1400) {
+        padding-top: 200px;
+    }
+    &-block {
+        max-width: 907px;
+        height: 200px;
+        background: #fff;
+        margin-bottom: 24px;
+        border-radius: 100px;
+        padding: 27px 85px 24px;
+        @include breakpoint($bp-800) {
+            padding: 15px 35px 0px;
+        }
+        @include breakpoint($bp-500) {
+            padding: 35px 35px ;
+        }
+        &-title {
+            font-size: 36px;
+            line-height: 50px;
+            color: #1D1D1B;
+            font-family: 'Fregat-Bold';
+            @include breakpoint($bp-800) {
+                font-size: 28px;
+                line-height: 40px;
+            }
+            @include breakpoint($bp-500) {
+                font-size: 22px;
+                line-height: 25px;
+            }
+        }
+        &-number {
+            display: flex;
+            justify-content: space-between;
+            font-size: 26px;
+            line-height: 34px;
+            margin-top: 18px;
+            @include breakpoint($bp-500) {
+                font-size: 22px;
+                line-height: 25px;
+            }
+        }
+    }
+    &-btn {
+        display: flex;
+        justify-content: center;
+    }
+}

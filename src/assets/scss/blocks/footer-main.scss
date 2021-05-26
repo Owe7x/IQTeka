@@ -1,0 +1,41 @@
+.footer-main {
+    background: url(../images/footer-main-bg.jpg);
+    background-repeat: no-repeat;
+    padding-top: 170px;
+    padding-bottom: 152px;
+    position: relative;
+    &::before {
+        display: block;
+        content: '';
+        background: url(../images/footer-main-bg-2.png);
+        width: 895px;
+        height: 1108px;
+        position: absolute;
+        top: -100px;
+        left: 0;
+        @include breakpoint($bp-1400) {
+            display: none;
+        }
+    }
+    &__form {
+        display: flex;
+        margin-left: auto;
+        max-width: 736px;
+        position: relative;
+        @include breakpoint($bp-1400) {
+            margin: 0 auto;
+        }
+        &::after {
+            display: block;
+            content: '';
+            background: url(../images/footer-main-bg.png);
+            width: 238px;
+            height: 245px;
+            position: absolute;
+            top: -115px;
+            right: -120px;
+            z-index: 2;
+
+        }
+    }
+}

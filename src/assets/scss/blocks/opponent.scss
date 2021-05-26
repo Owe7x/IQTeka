@@ -1,0 +1,35 @@
+.opponent {
+    background: #8F80B0;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    @include breakpoint($bp-1400) {
+        padding-bottom: 30px;
+    }
+    @include breakpoint($bp-1100) {
+        padding-bottom: 50px;
+        background-size: cover;
+    }
+    .container {
+        position: relative;
+        &::after {
+            display: block;
+            content: '';
+            background: url(../images/opponent-bg.png);
+            width: 657px;
+            height: 1220px;
+            position: absolute;
+            top: 0;
+            right: -100px;
+            @include breakpoint($bp-1400) {
+                display: none;
+            }
+        }
+    }
+    &-block {
+        max-width: 800px;
+        margin-bottom: 82px;
+        @include breakpoint($bp-1400) {
+            max-width: 100%;
+        }
+    }
+}

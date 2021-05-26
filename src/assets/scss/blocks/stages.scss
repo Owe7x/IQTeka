@@ -1,17 +1,16 @@
 .stages {
-    background: url(../images/bg-6.jpg);
+    background: #F18507 url(../images/bg-6.jpg);
     background-repeat: no-repeat;
-    padding-top: 104px;
-    padding-bottom: 35px;
-    background-position: center center;
+    padding-top: 70px;
+    padding-bottom: 0;
     @include breakpoint($bp-1400) {
         padding-top: 50px;
         padding-bottom: 0;
         background-size: cover;
     }
     &-blocks {
-        margin-top: 138px;
-        margin-bottom: 200px;
+        margin-top: 200px;
+        margin-bottom: 100px;
         @include breakpoint($bp-1100) {
             margin-bottom: 100px;
         }

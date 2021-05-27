@@ -35,6 +35,10 @@
             font-size: 44px;
             line-height: 64px;
         }
+        @include breakpoint($bp-400) {
+            font-size: 32px;
+            line-height: 52px;
+        }
     }
     &__p {
         font-size: 26px;
@@ -46,6 +50,10 @@
         @include breakpoint($bp-800) {
             font-size: 22px;
             line-height: 34px;
+        }
+        @include breakpoint($bp-400) {
+            font-size: 13px;
+            line-height: 24px;
         }
     }
     &__blocks {
@@ -64,10 +72,17 @@
         align-items: center;
         img {
             margin-right: 17px;
+            @include breakpoint($bp-400) {
+                max-width: 50px;
+            }
         }
         @include breakpoint($bp-800) {
             font-size: 20px;
             line-height: 34px;
+        }
+        @include breakpoint($bp-400) {
+            font-size: 16px;
+            line-height: 24px;
         }
     }
 }

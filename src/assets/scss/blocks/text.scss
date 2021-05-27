@@ -16,6 +16,9 @@
 .phiol {
     color: #6E5A96;
 }
+.db {
+    display: block;
+}
 .title {
     color: #fff;
     max-width: 920px;
@@ -35,6 +38,14 @@
         font-size: 38px;
         line-height: 52px;
     }
+    @include breakpoint($bp-500) {
+        font-size: 34px;
+        line-height: 52px;
+    }
+    @include breakpoint($bp-400) {
+        font-size: 27px;
+        line-height: 40px;
+    }
 }
 .p {
     font-size: 36px;
@@ -47,11 +58,25 @@
         font-size: 30px;
         line-height: 42px;
     }
+    @include breakpoint($bp-400) {
+        font-size: 24px;
+        line-height: 32px;
+    }
     &--black {
         color: #1D1D1B;
     }
     &--center {
         text-align: center;
         margin: 0 auto;
+    }
+}
+.h3__title {
+    font-weight: bold;
+    font-size: 30px;
+}
+#politic-conf {
+    p {
+        font-size: 18px;
+        font-weight: bold;
     }
 }

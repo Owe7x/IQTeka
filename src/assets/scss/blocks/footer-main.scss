@@ -4,6 +4,9 @@
     padding-top: 170px;
     padding-bottom: 152px;
     position: relative;
+    @include breakpoint($bp-500) {
+        background-size: cover;
+    }
     &::before {
         display: block;
         content: '';
@@ -35,7 +38,9 @@
             top: -115px;
             right: -120px;
             z-index: 2;
-
+            @include breakpoint($bp-500) {
+                display: none;
+            }
         }
     }
 }

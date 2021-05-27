@@ -7,6 +7,12 @@
 
         background-position: center top;
     }
+    @include breakpoint($bp-500) {
+        padding-bottom: 160px;
+    }
+    @include breakpoint($bp-400) {
+        padding-top: 200px;
+    }
     &-block {
         max-width: 736px;
         margin-left: auto;

@@ -7,6 +7,9 @@
         padding-bottom: 45px;
         padding-top: 0px;
     }
+    @include breakpoint($bp-500) {
+        background-size: cover;
+    }
     .iqteka-blocks {
         @include breakpoint($bp-1400) {
             padding-top: 0px;

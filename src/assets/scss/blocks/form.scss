@@ -11,6 +11,12 @@ form {
 .form-modal {
     max-width: 736px;
     padding: 41px 32px;
+    @include breakpoint($bp-500) {
+        max-width: 365px;
+    }
+    @include breakpoint($bp-400) {
+        max-width: 270px;
+    }
 }
 .form__title {
     margin-bottom: 36px;
@@ -22,6 +28,10 @@ form {
         font-size: 30px;
         line-height: 34px;
     }
+    @include breakpoint($bp-400) {
+        font-size: 24px;
+        line-height: 30px;
+    }
 }
 .form__blocks {
     display: flex;
@@ -30,7 +40,6 @@ form {
     max-width: 900px;
     @include breakpoint($bp-500) {
         flex-direction: column;
-        align-items: center;
     }
 }
 .form__p {
@@ -56,6 +65,13 @@ form {
             font-size: 22px;
             line-height: 34px;
         }
+        @include breakpoint($bp-400) {
+            font-size: 20px;
+            line-height: 30px;
+        }
+    }
+    @include breakpoint($bp-400) {
+        margin-bottom: 5px;
     }
 }
 .form-input {
@@ -82,6 +98,9 @@ form {
         @include breakpoint($bp-500) {
             max-width: 300px!important;
         }
+        @include breakpoint($bp-400) {
+            max-width: 230px!important;
+        }
     }
 }
 .form__link-modal {
@@ -105,6 +124,10 @@ form {
         color: #1D1D1B;
         padding-left: 30px;
         padding-bottom: 5px;
+        @include breakpoint($bp-400) {
+            font-size: 20px;
+
+        }
     }
     input {
         width: 300px;
@@ -116,6 +139,9 @@ form {
         padding: 23px 35px;
         font-size: 26px;
         color: #C6C6C6;
+        @include breakpoint($bp-400) {
+            max-width: 230px!important;
+        }
     }
 }
 .form-p {
@@ -127,6 +153,10 @@ form {
     color: #C6C6C6;
     @include breakpoint($bp-500) {
         font-size: 12px;
+        line-height: 20px;
+    }
+    @include breakpoint($bp-400) {
+        font-size: 9px;
         line-height: 20px;
     }
 }

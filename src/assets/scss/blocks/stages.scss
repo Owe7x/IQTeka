@@ -8,20 +8,30 @@
         padding-bottom: 0;
         background-size: cover;
     }
+    @include breakpoint($bp-1400) {
+        background-position: center center;
+        margin-top: -5px;
+    }
     &-blocks {
         margin-top: 200px;
         margin-bottom: 100px;
         @include breakpoint($bp-1100) {
             margin-bottom: 100px;
         }
-        @include breakpoint($bp-600) {
-            margin-top: 50px;
+        @include breakpoint($bp-800) {
+            display: none;
+        }
+        &-mob {
+            display: none;
+            @include breakpoint($bp-800) {
+                display: block;
+            }
         }
     }
     &-block {
         display: flex;
         padding: 30px 0;
-        @include breakpoint($bp-500) {
+        @include breakpoint($bp-800) {
             align-items: center;
         }
         &-number {
@@ -33,6 +43,15 @@
             @include breakpoint($bp-800) {
                 font-size: 188px;
                 line-height: 50px;
+                width: 100px;
+            }
+            @include breakpoint($bp-500) {
+                width: 220px;
+            }
+
+            @include breakpoint($bp-400) {
+                font-size: 130px;
+                max-width: 220px;
             }
         }
         &-info {
@@ -53,41 +72,20 @@
                 font-size: 20px;
                 line-height: 32px;
             }
+            @include breakpoint($bp-400) {
+                font-size: 18px;
+                line-height: 26px;
+            }
         }
-    }
-}
-.st-b-1 {
-    @include breakpoint($bp-800) {
-       padding-left: 50px;
-    }
-    .stages-block-info {
-        @include breakpoint($bp-800) {
-            padding-left: 40px;
-         }
     }
 }
 .st-b-2 {
     padding-left: 140px;
     .stages-block-info {
         margin-top: -90px;
-        @include breakpoint($bp-800) {
-            margin-top: 0;
-        }
-    }
-    .stages-block-number {
-        @include breakpoint($bp-800) {
-            padding-top: 85px;
-        }
-        
     }
     @include breakpoint($bp-1100) {
         padding-left: 40px;
-    }
-    @include breakpoint($bp-800) {
-        margin-top: 300px;
-    }
-    @include breakpoint($bp-500) {
-        margin-top: 450px;
     }
 }
 .st-b-3 {
@@ -95,42 +93,17 @@
     .stages-block-number {
         padding-top: 85px;
     }
-    @include breakpoint($bp-800) {
-        margin-top: -560px;
-        padding-left: 40px;
-    }
-    @include breakpoint($bp-600) {
-        margin-top: -660px;
-    }
-    @include breakpoint($bp-500) {
-        margin-top: -700px;
-    }
 }
 .st-b-4 {
     margin-top: 95px;
     .stages-block-info {
         max-width: 500px;
     }
-    @include breakpoint($bp-800) {
-        margin-top: 550px;
-    }
-    @include breakpoint($bp-500) {
-        margin-top: 750px;
-    }
 }
 .st-b-5 {
     margin-top: 95px;
     .stages-block-info {
         max-width: 500px;
-    }
-    @include breakpoint($bp-800) {
-        margin-top: -750px;
-    }
-    @include breakpoint($bp-600) {
-        margin-top: -800px;
-    }
-    @include breakpoint($bp-500) {
-        margin-top: -1000px;
     }
 }
 .st-b-6 {
@@ -140,15 +113,6 @@
     }
     .stages-block-number {
         padding-top: 95px;
-    }
-    @include breakpoint($bp-800) {
-        margin-top: -530px;
-    }
-    @include breakpoint($bp-600) {
-        margin-top: -550px;
-    }
-    @include breakpoint($bp-500) {
-        margin-top: -650px;
     }
 }
 .stages-finish {
@@ -167,6 +131,6 @@
     margin-top: -80px;
     margin-left: 30px;
     @include breakpoint($bp-800) {
-        margin-top: 30px;
+        margin: 30px auto;
     }
 }

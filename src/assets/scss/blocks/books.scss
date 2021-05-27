@@ -2,6 +2,10 @@
     background: #F18507;
     padding-top: 154px;
     padding-bottom: 50px;
+    @include breakpoint($bp-400) {
+        margin-top: -5px;
+        padding-top: 100px;
+    }
     .container {
         position: relative;
         &::after {

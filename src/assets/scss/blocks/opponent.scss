@@ -9,6 +9,10 @@
         padding-bottom: 50px;
         background-size: cover;
     }
+    @include breakpoint($bp-400) {
+        margin-top: -5px;
+        background-size: cover;
+    }
     .container {
         position: relative;
         &::after {

@@ -8,12 +8,19 @@
     @include breakpoint($bp-1100) {
         padding-bottom: 0px;
     }
+    @include breakpoint($bp-400) {
+        background-size: cover;
+        margin-top: -7px;
+    }
     &-info {
         max-width: 780px;
         padding-top: 300px;
         @include breakpoint($bp-1400) {
             max-width: 100%;
             padding-top: 180px;
+        }
+        @include breakpoint($bp-400) {
+            padding-top: 100px;
         }
     }
     &-blocks {
@@ -35,6 +42,10 @@
             font-size: 22px;
             padding: 20px 20px 0;
             width: 300px;
+        }
+        @include breakpoint($bp-400) {
+            width: 270px;
+            font-size: 20px;
         }
         &-phiol {
             background: #6E5A96;

@@ -12459,6 +12459,13 @@ body {
     }
 }
 
+@media screen and (max-width: 400px) {
+    .header__logo img {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
 .header__main {
     display: -ms-flexbox;
     display: flex;
@@ -12487,6 +12494,14 @@ body {
     .header__text {
         font-size: 16px;
         line-height: 28px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header__text {
+        max-width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
     }
 }
 
@@ -12526,6 +12541,12 @@ body {
     color: #6E5A96;
 }
 
+@media screen and (max-width: 500px) {
+    .db {
+        display: block;
+    }
+}
+
 .title {
     color: #fff;
     max-width: 920px;
@@ -12552,6 +12573,20 @@ body {
     }
 }
 
+@media screen and (max-width: 500px) {
+    .title {
+        font-size: 34px;
+        line-height: 52px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .title {
+        font-size: 27px;
+        line-height: 40px;
+    }
+}
+
 .p {
     font-size: 36px;
     line-height: 50px;
@@ -12568,6 +12603,13 @@ body {
     }
 }
 
+@media screen and (max-width: 400px) {
+    .p {
+        font-size: 24px;
+        line-height: 32px;
+    }
+}
+
 .p--black {
     color: #1D1D1B;
 }
@@ -12575,6 +12617,16 @@ body {
 .p--center {
     text-align: center;
     margin: 0 auto;
+}
+
+.h3__title {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#politic-conf p {
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .header-main {
@@ -12631,6 +12683,13 @@ body {
     }
 }
 
+@media screen and (max-width: 400px) {
+    .header-main__text {
+        font-size: 32px;
+        line-height: 52px;
+    }
+}
+
 .header-main__p {
     font-size: 26px;
     color: #4E4D4D;
@@ -12644,6 +12703,13 @@ body {
     .header-main__p {
         font-size: 22px;
         line-height: 34px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header-main__p {
+        font-size: 13px;
+        line-height: 24px;
     }
 }
 
@@ -12670,10 +12736,23 @@ body {
     margin-right: 17px;
 }
 
+@media screen and (max-width: 400px) {
+    .header-main__block img {
+        max-width: 50px;
+    }
+}
+
 @media screen and (max-width: 800px) {
     .header-main__block {
         font-size: 20px;
         line-height: 34px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header-main__block {
+        font-size: 16px;
+        line-height: 24px;
     }
 }
 
@@ -12693,6 +12772,18 @@ form {
     padding: 41px 32px;
 }
 
+@media screen and (max-width: 500px) {
+    .form-modal {
+        max-width: 365px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .form-modal {
+        max-width: 270px;
+    }
+}
+
 .form__title {
     margin-bottom: 36px;
     font-family: 'Fregat-Bold';
@@ -12705,6 +12796,13 @@ form {
     .form__title {
         font-size: 30px;
         line-height: 34px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .form__title {
+        font-size: 24px;
+        line-height: 30px;
     }
 }
 
@@ -12721,8 +12819,6 @@ form {
     .form__blocks {
         -ms-flex-direction: column;
         flex-direction: column;
-        -ms-flex-align: center;
-        align-items: center;
     }
 }
 
@@ -12757,6 +12853,19 @@ form {
     .form__block-text {
         font-size: 22px;
         line-height: 34px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .form__block-text {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .form__block {
+        margin-bottom: 5px;
     }
 }
 
@@ -12806,6 +12915,12 @@ form {
     }
 }
 
+@media screen and (max-width: 400px) {
+    .form-input-modal input {
+        max-width: 230px !important;
+    }
+}
+
 .form__link-modal {
     margin-bottom: 16px;
 }
@@ -12839,6 +12954,12 @@ form {
     padding-bottom: 5px;
 }
 
+@media screen and (max-width: 400px) {
+    .form__link label {
+        font-size: 20px;
+    }
+}
+
 .form__link input {
     width: 300px;
     height: 80px;
@@ -12849,6 +12970,12 @@ form {
     padding: 23px 35px;
     font-size: 26px;
     color: #C6C6C6;
+}
+
+@media screen and (max-width: 400px) {
+    .form__link input {
+        max-width: 230px !important;
+    }
 }
 
 .form-p {
@@ -12863,6 +12990,13 @@ form {
 @media screen and (max-width: 500px) {
     .form-p {
         font-size: 12px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .form-p {
+        font-size: 9px;
         line-height: 20px;
     }
 }
@@ -12897,6 +13031,13 @@ form {
     }
 }
 
+@media screen and (max-width: 400px) {
+    .btn {
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+
 .btn--short {
     max-width: 352px;
     height: 120px;
@@ -12922,6 +13063,12 @@ form {
 @media screen and (max-width: 500px) {
     .btn--long {
         max-width: 300px !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .btn--long {
+        max-width: 230px !important;
     }
 }
 
@@ -12952,6 +13099,13 @@ form {
     .market {
         margin-top: -200px;
         padding-top: 330px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .market {
+        margin-top: -330px;
+        padding-top: 450px;
     }
 }
 
@@ -13023,6 +13177,13 @@ form {
     }
 }
 
+@media screen and (max-width: 400px) {
+    .iqteka {
+        background-size: cover;
+        margin-top: -7px;
+    }
+}
+
 .iqteka-info {
     max-width: 780px;
     padding-top: 300px;
@@ -13032,6 +13193,12 @@ form {
     .iqteka-info {
         max-width: 100%;
         padding-top: 180px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .iqteka-info {
+        padding-top: 100px;
     }
 }
 
@@ -13062,6 +13229,13 @@ form {
         font-size: 22px;
         padding: 20px 20px 0;
         width: 300px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .iqteka-block {
+        width: 270px;
+        font-size: 20px;
     }
 }
 
@@ -13161,6 +13335,18 @@ form {
 @media screen and (max-width: 1400px) {
     .content {
         background-position: center top;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .content {
+        padding-bottom: 160px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .content {
+        padding-top: 200px;
     }
 }
 
@@ -13283,6 +13469,16 @@ form {
     }
 }
 
+@media screen and (max-width: 400px) {
+    .island-block {
+        width: 230px;
+        height: 230px;
+        font-size: 14px;
+        line-height: 17px;
+        margin: 0 0 30px;
+    }
+}
+
 .island-block::after {
     display: block;
     content: '';
@@ -13313,6 +13509,14 @@ form {
     }
 }
 
+@media screen and (max-width: 400px) {
+    .island-block-text {
+        font-size: 130px;
+        margin-bottom: 30px;
+        margin-top: -40px;
+    }
+}
+
 .island-bottom {
     border: 10px solid #FFFFFF;
     box-sizing: border-box;
@@ -13326,6 +13530,13 @@ form {
 @media screen and (max-width: 500px) {
     .island-bottom {
         padding: 30px 20px 30px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .island-bottom {
+        padding: 30px 10px 30px 25px;
+        margin-bottom: 100px;
     }
 }
 
@@ -13348,6 +13559,13 @@ form {
     .island-bottom-text {
         font-size: 30px;
         line-height: 42px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .island-bottom-text {
+        font-size: 18px;
+        line-height: 30px;
     }
 }
 
@@ -13402,6 +13620,12 @@ form {
     }
 }
 
+@media screen and (max-width: 400px) {
+    .calculator {
+        padding-bottom: 100px;
+    }
+}
+
 .calculator-block {
     max-width: 907px;
     height: 200px;
@@ -13444,6 +13668,13 @@ form {
     }
 }
 
+@media screen and (max-width: 400px) {
+    .calculator-block-title {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
+
 .calculator-block-number {
     display: -ms-flexbox;
     display: flex;
@@ -13456,7 +13687,14 @@ form {
 
 @media screen and (max-width: 500px) {
     .calculator-block-number {
-        font-size: 22px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .calculator-block-number {
+        font-size: 12px;
         line-height: 25px;
     }
 }
@@ -13466,6 +13704,7 @@ form {
     display: flex;
     -ms-flex-pack: center;
     justify-content: center;
+    max-width: 907px;
 }
 
 /**
@@ -14268,6 +14507,13 @@ Build date: 2019-12-19 16:51:02
     }
 }
 
+@media screen and (max-width: 1400px) {
+    .stages {
+        background-position: center center;
+        margin-top: -5px;
+    }
+}
+
 .stages-blocks {
     margin-top: 200px;
     margin-bottom: 100px;
@@ -14279,9 +14525,19 @@ Build date: 2019-12-19 16:51:02
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .stages-blocks {
-        margin-top: 50px;
+        display: none;
+    }
+}
+
+.stages-blocks-mob {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    .stages-blocks-mob {
+        display: block;
     }
 }
 
@@ -14291,7 +14547,7 @@ Build date: 2019-12-19 16:51:02
     padding: 30px 0;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
     .stages-block {
         -ms-flex-align: center;
         align-items: center;
@@ -14310,6 +14566,20 @@ Build date: 2019-12-19 16:51:02
     .stages-block-number {
         font-size: 188px;
         line-height: 50px;
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .stages-block-number {
+        width: 220px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .stages-block-number {
+        font-size: 130px;
+        max-width: 220px;
     }
 }
 
@@ -14340,15 +14610,10 @@ Build date: 2019-12-19 16:51:02
     }
 }
 
-@media screen and (max-width: 800px) {
-    .st-b-1 {
-        padding-left: 50px;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .st-b-1 .stages-block-info {
-        padding-left: 40px;
+@media screen and (max-width: 400px) {
+    .stages-block-info {
+        font-size: 18px;
+        line-height: 26px;
     }
 }
 
@@ -14360,33 +14625,9 @@ Build date: 2019-12-19 16:51:02
     margin-top: -90px;
 }
 
-@media screen and (max-width: 800px) {
-    .st-b-2 .stages-block-info {
-        margin-top: 0;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .st-b-2 .stages-block-number {
-        padding-top: 85px;
-    }
-}
-
 @media screen and (max-width: 1100px) {
     .st-b-2 {
         padding-left: 40px;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .st-b-2 {
-        margin-top: 300px;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .st-b-2 {
-        margin-top: 450px;
     }
 }
 
@@ -14398,25 +14639,6 @@ Build date: 2019-12-19 16:51:02
     padding-top: 85px;
 }
 
-@media screen and (max-width: 800px) {
-    .st-b-3 {
-        margin-top: -560px;
-        padding-left: 40px;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .st-b-3 {
-        margin-top: -660px;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .st-b-3 {
-        margin-top: -700px;
-    }
-}
-
 .st-b-4 {
     margin-top: 95px;
 }
@@ -14425,42 +14647,12 @@ Build date: 2019-12-19 16:51:02
     max-width: 500px;
 }
 
-@media screen and (max-width: 800px) {
-    .st-b-4 {
-        margin-top: 550px;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .st-b-4 {
-        margin-top: 750px;
-    }
-}
-
 .st-b-5 {
     margin-top: 95px;
 }
 
 .st-b-5 .stages-block-info {
     max-width: 500px;
-}
-
-@media screen and (max-width: 800px) {
-    .st-b-5 {
-        margin-top: -750px;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .st-b-5 {
-        margin-top: -800px;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .st-b-5 {
-        margin-top: -1000px;
-    }
 }
 
 .st-b-6 {
@@ -14473,24 +14665,6 @@ Build date: 2019-12-19 16:51:02
 
 .st-b-6 .stages-block-number {
     padding-top: 95px;
-}
-
-@media screen and (max-width: 800px) {
-    .st-b-6 {
-        margin-top: -530px;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .st-b-6 {
-        margin-top: -550px;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .st-b-6 {
-        margin-top: -650px;
-    }
 }
 
 .stages-finish {
@@ -14515,7 +14689,7 @@ Build date: 2019-12-19 16:51:02
 
 @media screen and (max-width: 800px) {
     .stages-finish {
-        margin-top: 30px;
+        margin: 30px auto;
     }
 }
 
@@ -14523,6 +14697,13 @@ Build date: 2019-12-19 16:51:02
     background: #F18507;
     padding-top: 154px;
     padding-bottom: 50px;
+}
+
+@media screen and (max-width: 400px) {
+    .books {
+        margin-top: -5px;
+        padding-top: 100px;
+    }
 }
 
 .books .container {
@@ -14593,6 +14774,12 @@ Build date: 2019-12-19 16:51:02
     }
 }
 
+@media screen and (max-width: 500px) {
+    .partner {
+        background-size: cover;
+    }
+}
+
 @media screen and (max-width: 1400px) {
     .partner .iqteka-blocks {
         padding-top: 0px;
@@ -14646,6 +14833,13 @@ Build date: 2019-12-19 16:51:02
 @media screen and (max-width: 1100px) {
     .opponent {
         padding-bottom: 50px;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .opponent {
+        margin-top: -5px;
         background-size: cover;
     }
 }
@@ -14715,6 +14909,12 @@ Build date: 2019-12-19 16:51:02
     }
 }
 
+@media screen and (max-width: 400px) {
+    .action {
+        padding-top: 140px;
+    }
+}
+
 .action-blocks {
     margin-top: 86px;
 }
@@ -14725,6 +14925,15 @@ Build date: 2019-12-19 16:51:02
     margin-bottom: 104px;
 }
 
+@media screen and (max-width: 400px) {
+    .action-block {
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+}
+
 .action-block img {
     max-width: 100%;
 }
@@ -14733,6 +14942,12 @@ Build date: 2019-12-19 16:51:02
     .action-block img {
         max-width: 150px;
         height: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .action-block img {
+        margin-bottom: 30px;
     }
 }
 
@@ -14763,6 +14978,12 @@ Build date: 2019-12-19 16:51:02
     }
 }
 
+@media screen and (max-width: 400px) {
+    .action-block-info {
+        padding: 0;
+    }
+}
+
 .slider {
     padding-top: 100px;
     padding-bottom: 200px;
@@ -14774,6 +14995,18 @@ Build date: 2019-12-19 16:51:02
     -ms-flex-pack: center;
     justify-content: center;
     margin-top: 100px;
+}
+
+@media screen and (max-width: 500px) {
+    .slider {
+        padding-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .slider {
+        padding-top: 0;
+    }
 }
 
 .variable-width-block {
@@ -15075,6 +15308,12 @@ Build date: 2019-12-19 16:51:02
     position: relative;
 }
 
+@media screen and (max-width: 500px) {
+    .footer-main {
+        background-size: cover;
+    }
+}
+
 .footer-main::before {
     display: block;
     content: '';
@@ -15118,6 +15357,12 @@ Build date: 2019-12-19 16:51:02
     z-index: 2;
 }
 
+@media screen and (max-width: 500px) {
+    .footer-main__form::after {
+        display: none;
+    }
+}
+
 .footer {
     background: #554574;
     padding: 20px 0;
@@ -15131,10 +15376,27 @@ Build date: 2019-12-19 16:51:02
     color: #fff;
 }
 
+@media screen and (max-width: 500px) {
+    .footer-block {
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+}
+
 .footer-b {
     font-family: 'Fregat-Bold';
     font-size: 26px;
     line-height: 34px;
+}
+
+@media screen and (max-width: 500px) {
+    .footer-b {
+        font-size: 20px;
+        line-height: 32px;
+        padding-left: 10px;
+    }
 }
 
 .footer-info a {
@@ -15143,11 +15405,25 @@ Build date: 2019-12-19 16:51:02
     line-height: 34px;
 }
 
+@media screen and (max-width: 500px) {
+    .footer-info a {
+        font-size: 14px;
+        line-height: 32px;
+    }
+}
+
 .footer-phone a {
     color: #fff;
     font-family: 'Fregat-Bold';
     font-size: 26px;
     line-height: 34px;
+}
+
+@media screen and (max-width: 500px) {
+    .footer-phone a {
+        font-size: 20px;
+        line-height: 32px;
+    }
 }
 
 .fancybox-content {

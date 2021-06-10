@@ -12461,8 +12461,8 @@ body {
 
 @media screen and (max-width: 400px) {
     .header__logo img {
-        max-width: 100%;
         margin-bottom: 20px;
+        max-width: 130px;
     }
 }
 
@@ -12481,6 +12481,7 @@ body {
     .header__main {
         -ms-flex-direction: column;
         flex-direction: column;
+        padding-bottom: 40px;
     }
 }
 
@@ -12698,7 +12699,8 @@ body {
 @media screen and (max-width: 400px) {
     .header-main__text {
         font-size: 32px;
-        line-height: 52px;
+        line-height: 46px;
+        margin-bottom: 25px;
     }
 }
 
@@ -12728,6 +12730,12 @@ body {
 .header-main__blocks {
     max-width: 900px;
     margin-bottom: 86px;
+}
+
+@media screen and (max-width: 400px) {
+    .header-main__blocks {
+        margin-bottom: 36px;
+    }
 }
 
 .header-main__block {
@@ -12779,6 +12787,12 @@ form {
     padding: 51px 10px 32px;
 }
 
+@media screen and (max-width: 500px) {
+    form {
+        padding: 20px 10px 32px;
+    }
+}
+
 .form-modal {
     max-width: 736px;
     padding: 41px 32px;
@@ -12811,10 +12825,11 @@ form {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .form__title {
         font-size: 24px;
         line-height: 30px;
+        margin-bottom: 20px;
     }
 }
 
@@ -12831,6 +12846,7 @@ form {
     .form__blocks {
         -ms-flex-direction: column;
         flex-direction: column;
+        display: none;
     }
 }
 
@@ -13058,6 +13074,7 @@ form {
 @media screen and (max-width: 500px) {
     .btn--short {
         max-width: 300px;
+        height: 100px;
     }
 }
 
@@ -13075,6 +13092,7 @@ form {
 @media screen and (max-width: 500px) {
     .btn--long {
         max-width: 300px !important;
+        height: 100px;
     }
 }
 

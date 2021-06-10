@@ -16,6 +16,10 @@
 .phiol {
     color: #6E5A96;
 }
+.phiol-2 {
+    color: #6E5A96;
+    font-family: 'Fregat-Bold';
+}
 .db {
     @include breakpoint($bp-500) {
         display: block;
@@ -81,4 +85,10 @@
         font-size: 18px;
         font-weight: bold;
     }
+}
+.thanks {
+    text-align: center;
+    font-size: 50px;
+    line-height: 70px;
+    padding: 100px 0 335px;
 }

@@ -7,6 +7,9 @@ form {
     box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
     border-radius: 100px;
     padding: 51px 10px 32px;
+    @include breakpoint($bp-500) {
+        padding: 20px 10px 32px;
+    }
 }
 .form-modal {
     max-width: 736px;
@@ -28,9 +31,10 @@ form {
         font-size: 30px;
         line-height: 34px;
     }
-    @include breakpoint($bp-400) {
+    @include breakpoint($bp-500) {
         font-size: 24px;
         line-height: 30px;
+        margin-bottom: 20px;
     }
 }
 .form__blocks {
@@ -40,6 +44,7 @@ form {
     max-width: 900px;
     @include breakpoint($bp-500) {
         flex-direction: column;
+        display: none;
     }
 }
 .form__p {

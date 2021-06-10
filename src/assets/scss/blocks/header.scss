@@ -7,8 +7,9 @@
                 height: auto;
             }
             @include breakpoint($bp-400) {
-                max-width: 100%;
+
                 margin-bottom: 20px;
+                max-width: 130px;
             }
         }
     }
@@ -20,6 +21,7 @@
         padding-bottom: 95px;
         @include breakpoint($bp-500) {
             flex-direction: column;
+            padding-bottom: 40px;
         }
     }
     &__text {

@@ -12541,6 +12541,11 @@ body {
     color: #6E5A96;
 }
 
+.phiol-2 {
+    color: #6E5A96;
+    font-family: 'Fregat-Bold';
+}
+
 @media screen and (max-width: 500px) {
     .db {
         display: block;
@@ -12627,6 +12632,13 @@ body {
 #politic-conf p {
     font-size: 18px;
     font-weight: bold;
+}
+
+.thanks {
+    text-align: center;
+    font-size: 50px;
+    line-height: 70px;
+    padding: 100px 0 335px;
 }
 
 .header-main {
@@ -13649,7 +13661,7 @@ form {
 
 .calculator-block-title {
     font-size: 36px;
-    line-height: 50px;
+    line-height: 35px;
     color: #1D1D1B;
     font-family: 'Fregat-Bold';
 }

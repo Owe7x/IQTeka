@@ -21,6 +21,15 @@
             display: none;
         }
     }
+    &__mobile {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+        display: none;
+        @include breakpoint($bp-500) {
+            display: flex;
+        }
+    }
     &__text {
         color: #6E5A96;
         font-size: 54px;
@@ -28,7 +37,7 @@
         font-family: 'PotrachenoAlt';
         text-transform: uppercase;
         max-width: 900px;
-        margin-bottom: 50px;
+        margin-bottom: 25px;
         position: relative;
         z-index: 2;
         @include breakpoint($bp-800) {
@@ -45,7 +54,7 @@
         font-size: 26px;
         color: #4E4D4D;
         max-width: 590px;
-        margin-bottom: 70px;
+        margin-bottom: 35px;
         position: relative;
         z-index: 2;
         @include breakpoint($bp-800) {
@@ -59,7 +68,7 @@
     }
     &__blocks {
         max-width: 900px;
-        margin-bottom: 86px;
+        margin-bottom: 0px;
         @include breakpoint($bp-400) {
             margin-bottom: 36px;
         }

@@ -6,9 +6,9 @@ form {
     background: #FFFFFF;
     box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
     border-radius: 100px;
-    padding: 51px 10px 32px;
+    padding: 21px 10px 20px;
     @include breakpoint($bp-500) {
-        padding: 20px 10px 32px;
+        padding: 40px 10px 32px;
     }
 }
 .form-modal {
@@ -22,7 +22,7 @@ form {
     }
 }
 .form__title {
-    margin-bottom: 36px;
+    margin-bottom: 16px;
     font-family: 'Fregat-Bold';
     font-size: 36px;
     line-height: 50px;
@@ -40,7 +40,7 @@ form {
 .form__blocks {
     display: flex;
     justify-content: space-between;
-    margin: 0 auto 35px;
+    margin: 0 auto 15px;
     max-width: 900px;
     @include breakpoint($bp-500) {
         flex-direction: column;

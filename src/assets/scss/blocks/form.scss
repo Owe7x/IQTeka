@@ -41,7 +41,7 @@ form {
     display: flex;
     justify-content: space-between;
     margin: 0 auto 15px;
-    max-width: 900px;
+    max-width: 500px;
     @include breakpoint($bp-500) {
         flex-direction: column;
         display: none;

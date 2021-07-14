@@ -167,8 +167,9 @@ Build date: 2019-12-19 16:51:02
 }
 .irs--flat .irs-handle {
   top: 14px;
-  width: 53px;
+  width: 45px;
   height: 52px;
+  margin-left: 6px;
   background: url(../images/ion.png);
 }
 .irs--flat .irs-handle > i:first-child {
@@ -176,10 +177,9 @@ Build date: 2019-12-19 16:51:02
   display: block;
   top: 0;
   left: 50%;
-  width: 32px;
-  height: 32px;
+  width: 53px;
+  height: 52px;
   border-radius: 50%;
-  margin-left: -16px;
  
 }
 .irs--flat .irs-handle.state_hover > i:first-child,

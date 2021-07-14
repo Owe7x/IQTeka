@@ -13818,7 +13818,7 @@ form {
     font-weight: 300;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1600px) {
     #s3 {
         display: none;
     }

@@ -21,8 +21,8 @@ $(document).ready(function($){
     var check = price.totalS2
     var persents = price.totalS1 * price.totalS2 * 120000 * 0.05;
     var result = Math.round(price.totalS1 * price.totalS2 * 120000 - persents);
-    // document.getElementById("s1").innerHTML = result.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ") + ' ' + 'рублей';
-    // document.querySelector(".polzunok__value").innerHTML = price.totalS1.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ") ;
+    document.getElementById("s3").innerHTML = result.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ") ;
+    
     if(price.totalS2 == 0) {
       document.querySelector(".result-check").innerHTML = 'в основном книги';
     } else if (price.totalS2 == 1) {
